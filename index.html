@@ -1,37 +1,59 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Swegga Fashion</title>
+<meta http-equiv="Content-Language" content="en-za" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="./css/style.css">
+
+<title>Erin Caitlin Williams</title>
+
 </head>
+
 <body>
-    <main class="wrapper">
+<div id="page">
+
+    <div class="sidebar">
+        <img src="swegga.jpg">
+    </div>
+
+	<div id="main">
+        <div class="banner">
+            <img src="delivery.gif">
+        </div>
+        <div class="navigation">
+            <img src="links.gif" usemap="#navigation">
+            <area coords="10,5,95,35" alt="order" href="order.html">
+            <area coords="105,5,190,35" alt="services" href="services.html">
+            <area coords="205,5,300,35" alt="products" href="products.html">
+            <area coords="310,5,440,35" alt="orderStatus" href="orderStatus.html">
+            <area coords="450,5,555,35" alt="contactUs" href="contactUs.html">
+        </div>
+    <form>
         <h3>Product Summary</h3>
         <table border="1">
             <tr>
-                <td>Description</td>
-                <td>Size</td>
-                <td>Colour</td>
-                <td>Price</td>
-                <td>Quantity</td>
-                <td>Total</td>
+                <th>Description</th>
+                <th>Size</th>
+                <th>Colour</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
             </tr>
             <tr>
-                <td>Female Ski Jackets</td>
+                <td><a href="./female.html">Female Ski Jackets</a> Ski Jackets</td>
                 <td>Small</td>
                 <td>Red</td>
                 <td>150.95</td>
-                <td>2</td>
+                <td><input type="number"></td>
                 <td>R 301.90</td>
             </tr>
             <tr>
-                <td>Male Ski Jackets</td>
+                <td><a href="./male.html">Male Ski Jackets</td>
                 <td>Small</td>
                 <td>Red</td>
                 <td>180.95</td>
-                <td>4</td>
+                <td><input type="number"></td>
                 <td>R 301.80</td>
             </tr>
             <tr>
@@ -40,8 +62,10 @@
                 <td>R 1025.70</td>
             </tr>
         </table>
-        </div>
-    </main>
+    </form>
+	</div>
+	
+</div>
     <footer></footer>
     <script src="./script/code.js"></script>
 </body>
