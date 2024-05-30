@@ -10,10 +10,21 @@ main {
     margin-left: 150px;
 }
 
+table {
+    border: 1px solid black;
+}
+
+
 .container {
     width: 20rem;
     margin: 2rem auto 2rem;
     display: grid;
     border-color: black;
     border: 1px;
+}
+
+footer {
+    margin-top: .5em;
+    padding-top: .7em;
+    border-top: 2px solid gray;
 }
